@@ -10,7 +10,7 @@ The main page shown below would be to first page loaded and welcome the user wit
 
 ![Home Page](Homepage.jpg "Home Page")
 
-The projects page will list the three projects I will be completing in this class. These will take the user directly to the main page of those projects when they click the desired project. I am keeping everything fairly narrow in my wireframes and will adjust accordingly giving max and min widths to adjust and increase the responsiveness of the page.
+The projects page will list the three projects I will be completing in this class. These will take the user directly to the main page of those projects when they click the desired project. I am keeping everything fairly narrow in my wireframes and will adjust accordingly giving max and min widths to adjust and increase the responsiveness of the page. I also plan to stagger these out but only slightly so they still fit well on smaller screens. I will also experiment with making them not staggered and in a line if the width becomes to narrow for the stagger.
 
 ![Project Page](projectsPage.jpg "Project Page")
 
