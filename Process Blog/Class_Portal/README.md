@@ -2,7 +2,7 @@
 ## Milestone 1
 
 The overall them my portal will have is an outdoor theme. This theme will really allow me to put my personality and hobbis into the portal. For the main first load in page I will include some of my personaly by including a photo of me with a fish along with a quick about me paragraph. With the wide range of availability that comes from an outdoors them I will be able to keep the portal professional and simplistic. The portal will be straight to the point and have a straight forward lay out in which the user will be able to easily and efficiently navigate the menu and pages. The color scheme I have chose is based on my love for the outdoors. Shown below is the color scheme I will utilize.
-![Color Palette](ColorPallete.png "Color Palette")
+![Color Palette](ColorPalette.png "Color Palette")
 
 I began by creating a visual mock up wireframe in the form of a sketch in order to get the layout down visualy. I realized I wanted to keep this page inviting so I will make the boxes very rounded to give them a better look and less sharp and harsh.
 
