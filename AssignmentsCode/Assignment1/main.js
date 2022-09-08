@@ -33,11 +33,11 @@ headingChange.addEventListener('mouseleave', function() {
 });
 
 const imageChange = document.getElementById("image");
-imageChange.addEventListener('mouseenter', () => {
+headingChange.addEventListener('mouseenter', () => {
     imageChange.src="spotify.png";
 });
   
-imageChange.addEventListener('mouseleave', function() {
+headingChange.addEventListener('mouseleave', function() {
     imageChange.src="appleMusic.png";
 });
 
