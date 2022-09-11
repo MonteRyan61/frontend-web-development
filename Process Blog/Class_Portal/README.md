@@ -19,3 +19,25 @@ The Assignments page will follow the same format and capabilities as the project
 ![Assignments Page](assignmentsPage.jpg "Assignments Page")
 
 In regard to responsiveness I plan to make use of the CSS media queries in order to change the page layout dynamically depending on the size of the window or the target device. I also will be first developing a design for mobile first as recommended in lecture to ensure that would be responsive as it is easier to adjust to having to much room rather than to little. Also as shown in the wire fram above I made the layout very narrow as with that when the screen gets narrow you can scroll to still see the content without the formating going crazy. I also plan to make the inividual assignment and project tabs dynamically sized so they are not super small on the larger monitors but will first design them to be small so they are working for mobile device viewers.
+
+
+## Milestone 2
+
+I began working on my portal in a small window sized for mobile. While doing this and begining to implment the staggered menu I found this was difficult and near impossible to line up. After a while of messing around I figured out that with flex boxes it was very easy to center align the tas. It proved to be very difficult to achieve this stagger and remain dynamically sizeable. I bailed on this idea and may come back to this design if time allowed and I had the remainder of the design completed. While designing the main page I decided to not only have a link to my process blog but a seperate link to my code within github. I did this so that user wouldn't have to go to the process blog then navigate to the code. 
+![Rectangle Fun](rectangleManip.png "Rectangle Fun")
+![Rectangle Fun](rectangle.png "Rectangle Fun")
+On the main landing page I experimented with the border-radius attribute on the buttons. I found this very cool how unique you could make the once rectangles look.
+
+![Varying button size](differentSizeButton.png "Varying Button Size")
+When making the window smaller the butons change size based on the size of content within them. I found this to still be dynamic and unique as the ordering went from the longest word being assignments down to the smallest being code. I chose to leave this even though it would have been easy to make them all the same size box as it gave uniqueness. 
+
+![Happy Accident](happyAccident.png "Happy Accident")
+While adding a photo of me I set he same class for the flex item as my menu buttons on the image. Although this was an accident I really like the way it looked and decided to keep that styling on the image as it keeps the flow of the page looking nice.
+
+Once I had the main page set up I began to experiment with animations for the buttons. I didn't want to make it to flashy. While doing some research on hover animations I found alot of crazy ones. I saw a few using this transition wiht an ease-out and have to color change (https://blog.hubspot.com/website/css-hover-animation). I decided to try that out and liked how suttle but effect it was and stuck with it for all of my pages to keep unison.
+
+
+![Projects Page](projectsPage.png "Projects Page")
+While developing the projects page I decided to add some photos that will be replaced with a picture of each project just to give the user a litle more info on where that link will take them when they click it. Once I complete the projects I will add an informational paragraph beneath the photo and title of the project.
+
+To keep the flow of the over all site, I made the page that will store the assignments/labs very similar so that it is a flowing UI between the two pages that are only seperated by scope of the work being a month long project or a week long assignment.
