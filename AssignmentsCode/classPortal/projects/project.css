@@ -10,6 +10,16 @@ header{
     text-align: center;
 }
 
+#name{
+    color: black;
+}
+
+#name:hover{
+    background-color: #827f74;
+    border-radius: 40% 70%;
+    transition: background-color 1s ease-out 25ms 
+}
+
 .flex-menu{
     display: flex;
     flex-flow: row wrap;
