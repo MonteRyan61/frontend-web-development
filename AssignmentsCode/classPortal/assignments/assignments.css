@@ -1,74 +1,9 @@
-body{
-    background-color: #d1dce3;
-    margin:1rem;
-    padding: 0;
-}
-header{
-    margin:0;
-    padding:0.5rem;
-    font-size: 2em;
-    text-align: center;
-}
-
-#name{
-    color: black;
-}
-
-#name:hover{
-    background-color: #827f74;
-    border-radius: 40% 70%;
-    transition: background-color 1s ease-out 25ms 
-}
-
-.flex-menu{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
-
-.flex-item{
-    display:flex;
-    flex-flow: row;
-    justify-content: center;
-    flex-grow: 1;
-
-    background-color: #c5cac8;
-    border-radius: 30% 70%;
-
-    padding: .5rem;
-    margin:.5rem;
-
-    font-size: 1.5em;
-    color: black;
-
-    /* https://blog.hubspot.com/website/css-hover-animation for the transition hover effect idea */
-    transition: background-color 1s ease-out 25ms 
-}
-
-#about-me{
-    display:flex;
-    flex-flow: row;
-    justify-content: center;
-    flex-grow: 1;
-
-
-    padding: .5rem;
-    margin:.5rem;
-    color: black;
-}
-
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
-
 img {
     max-width: 35%;
     height: auto\10;
     width: auto\12;
     border-radius: 30% 70%;
 }
-
 
 #lab-1:hover{
     background-color: #827f74;
@@ -92,52 +27,7 @@ img {
     background-color: #827f74;
 }
 
-
-#Assignments:hover{
-    background-color: #827f74;
-}
-
-#Projects:hover{
-    background-color: #827f74;
-}
-
 #Assignments{
     background-color: #827f74;
 }
 
-#Process:hover{
-    background-color: #827f74;
-}
-
-#Code:hover{
-    background-color: #827f74;
-}
-
-
-.flex-menu-project{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    transition: background-color 1s ease-out 25ms 
-}
-
-
-.flex-project-item{
-    display:flex;
-    flex-flow: column wrap;
-    align-items: center;
-    flex-grow: 1;
-
-    background-color: #c5cac8;
-    border-radius: 30% 70%;
-    width: 33%;
-    padding: .5rem;
-    margin:.5rem;
-
-    font-size: 1.5em;
-    color: black;
-
-    /* https://blog.hubspot.com/website/css-hover-animation for the transition hover effect idea */
-    transition: background-color 1s ease-out 25ms 
-}
