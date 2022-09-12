@@ -35,6 +35,36 @@ header{
     transition: background-color 1s ease-out 25ms 
 }
 
+.flex-menu-project{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 1s ease-out 25ms 
+}
+
+
+.flex-project-item{
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+    flex-grow: 1;
+
+    background-color: #c5cac8;
+    border-radius: 30% 70%;
+    width: 33%;
+    padding: .5rem;
+    margin:.5rem;
+
+    font-size: 1.5em;
+    color: black;
+
+    /* https://blog.hubspot.com/website/css-hover-animation for the transition hover effect idea */
+    transition: background-color 1s ease-out 25ms 
+}
+
+
 #about-me{
     display:flex;
     flex-flow: row;
@@ -60,10 +90,21 @@ img {
 }
 
 
+#Project-1:hover{
+    background-color: #827f74;  
+}
+
+#Project-2:hover{
+    background-color: #827f74;  
+}
+
+#Project-3:hover{
+    background-color: #827f74;  
+}
+
 #Assignments:hover{
     background-color: #827f74;
 }
-
 
 #Projects{
     background-color: #827f74;
@@ -77,30 +118,3 @@ img {
     background-color: #827f74;
 }
 
-
-.flex-menu-project{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.flex-project-item{
-    display:flex;
-    flex-flow: column wrap;
-    align-items: center;
-    flex-grow: 1;
-
-    background-color: #c5cac8;
-    border-radius: 30% 70%;
-    width: 33%;
-    padding: .5rem;
-    margin:.5rem;
-
-    font-size: 1.5em;
-    color: black;
-
-    /* https://blog.hubspot.com/website/css-hover-animation for the transition hover effect idea */
-    transition: background-color 1s ease-out 25ms 
-}

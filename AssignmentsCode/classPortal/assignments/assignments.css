@@ -60,6 +60,29 @@ img {
 }
 
 
+#lab-1:hover{
+    background-color: #827f74;
+}
+#lab-2:hover{
+    background-color: #827f74;
+}
+#lab-3:hover{
+    background-color: #827f74;
+}
+#lab-4:hover{
+    background-color: #827f74;
+}
+#lab-5:hover{
+    background-color: #827f74;
+}
+#lab-6:hover{
+    background-color: #827f74;
+}
+#lab-7:hover{
+    background-color: #827f74;
+}
+
+
 #Assignments:hover{
     background-color: #827f74;
 }
@@ -86,6 +109,7 @@ img {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    transition: background-color 1s ease-out 25ms 
 }
 
 
