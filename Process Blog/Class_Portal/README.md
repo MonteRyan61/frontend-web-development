@@ -22,6 +22,7 @@ In regard to responsiveness I plan to make use of the CSS media queries in order
 
 
 ## Milestone 2
+[Class Portal Link!](https://class-portal-frontend-web-development-monteryan61.vercel.app)
 
 I began working on my portal in a small window sized for mobile. While doing this and begining to implment the staggered menu I found this was difficult and near impossible to line up. After a while of messing around I figured out that with flex boxes it was very easy to center align the tas. It proved to be very difficult to achieve this stagger and remain dynamically sizeable. I bailed on this idea and may come back to this design if time allowed and I had the remainder of the design completed. While designing the main page I decided to not only have a link to my process blog but a seperate link to my code within github. I did this so that user wouldn't have to go to the process blog then navigate to the code. 
 ![Rectangle Fun](rectangleManip.png "Rectangle Fun")
