@@ -74,7 +74,7 @@ h4{
     padding: .5rem;
     margin:.5rem;
 
-    font-size: 1.5em;
+    font-size:2vw;
     color: black;
     /* https://blog.hubspot.com/website/css-hover-animation for the transition hover effect idea */
     transition: background-color 1s ease-out 25ms 
