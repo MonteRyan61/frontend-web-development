@@ -1,3 +1,12 @@
+@keyframes slideEffectHeader {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
 body{
     background-color: #d1dce3;
     margin:1rem;
@@ -8,6 +17,7 @@ header{
     padding:0.5rem;
     font-size: 2em;
     text-align: center;
+    animation: .5s ease-in 0s 1 slideEffectHeader;
 }
 h1{
     margin:0;
@@ -20,6 +30,7 @@ h4{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+
 }
 
 .flex-item{
@@ -46,7 +57,7 @@ h4{
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-
+    
     transition: background-color 1s ease-out 25ms 
 }
 
@@ -65,7 +76,6 @@ h4{
 
     font-size: 1.5em;
     color: black;
-
     /* https://blog.hubspot.com/website/css-hover-animation for the transition hover effect idea */
     transition: background-color 1s ease-out 25ms 
 }

@@ -35,7 +35,7 @@ When making the window smaller the butons change size based on the size of conte
 ![Happy Accident](happyAccident.png "Happy Accident")
 While adding a photo of me I set he same class for the flex item as my menu buttons on the image. Although this was an accident I really like the way it looked and decided to keep that styling on the image as it keeps the flow of the page looking nice.
 
-Once I had the main page set up I began to experiment with animations for the buttons. I didn't want to make it to flashy. While doing some research on hover animations I found alot of crazy ones. I saw a few using this transition wiht an ease-out and have to color change (https://blog.hubspot.com/website/css-hover-animation). I decided to try that out and liked how suttle but effect it was and stuck with it for all of my pages to keep unison.
+Once I had the main page set up I began to experiment with animations for the buttons. I didn't want to make it to flashy. While doing some research on hover animations I found alot of crazy ones. I saw a few using this transition wiht an ease-out and have to color change (https://blog.hubspot.com/website/css-hover-animation). I decided to try that out and liked how suttle but effect it was and stuck with it for all of my pages to keep unison. Also for these links I will implement target=”_blank” so that a new seperate tab is opened as I found it annoying that git hub would open and they only way to reach the page again was to hit the back button.
 
 
 ![Projects Page](projectsPage.png "Projects Page")
@@ -47,7 +47,7 @@ With the site up and running I went through and made sure it was sizing well for
 ![Not hovering on the name](notHover.png "Not hovering on the name")
 ![Hovering on the name](hoveringOnTheName.png "Hovering on the name")
 
-I then wanted to add some different affects when the page loads in through css to make the page have some more spark to it, I chose to 
+I then wanted to add some different affects when the page loads in through css to make the page have some more spark to it. From Web I remember using @keyframes to achieve different ways for a page to load. I chose to take this route to give my page some life while still not using javascript. I experimented with this for quite some time and found alot of the animations were overwhelming. I decided to just have the header drop down to keep it simple and not to distracting of an animation.
 
 ![Two Style Sheets](twoStyleSheets.png "Two Style Sheets")
 As some overall clean up when developing the site I had three different style sheets one for each of the html pages. When I attempted to condense this down I ran into a problem. When I was on the project or assignment page I wanted that to become a darker color to indicate that the user was indeed on that page. Without having a seperate style sheet for each of these pages I was unable to achieve this without the use of JS. So I decided to keep the seperate style sheets for now. That was until I found out you can have one main style sheet applied then can add an additional one to make a small change like the one I was needing. So I made the change and condensed the style sheets down to one main one that all pages are initially loaded in with. Then had one for the projects and one for the assignments that would make the one change in the header to make the background darker signifying where the user is in the site and to make my name clickable.
