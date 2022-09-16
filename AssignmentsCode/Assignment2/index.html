@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="main.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <form id="form">
+      <div>
+        <label for="name-input">Enter your name:</label>
+        <input type="text" id="name-input" >
+      </div>
+      <div>
+        <label for="email-input">Email:</label>
+        <input type="email" id="email-input" >
+        <p id="invalid-email"></p>
+      </div>
+      <div>
+        <label for="phone-input">Phone:</label>
+        <input type="tel" id="phone-input" name="tel" />
+      </div>
+      <div>
+        <label for="color-input">Choose a color for the page to be</label>
+        <input type="color" id="color-input" >
+      </div>
+      <div>
+        <label for="points">How into sports are you (between 0 and 10):</label>
+        <input type="range" id="points" name="points" min="0" max="10">
+      </div>
+
+      <fieldset id="checkboxes">
+        <legend>Checkbox Group</legend>
+
+        <input type="checkbox" id="check-1" name="checkbox-group">
+        <label for="check-1" >Football</label>
+
+        <input type="checkbox" id="check-2" name="checkbox-group">
+        <label for="check-2" >Soccer</label>
+
+        <input type="checkbox" id="check-3" name="checkbox-group">
+        <label for="check-3" >Baseball</label>
+
+        <input type="checkbox" id="check-4" name="checkbox-group">
+        <label for="check-4" >Rugby</label>
+        
+      </fieldset>
+      <fieldset>
+            <label for="sportsReview">Please explain why those are your favorite sports. What do you like about them?</label>
+             <br> <textarea id="sportsReview" name="paragraph" rows="4" cols="50">
+            </textarea>
+        </fieldset> 
+      <button type="button" id="my-button">Submit</button>
+    </form>
+    <div id = "output">
+      <h1 id="name">
+      </h1>
+      <p id="responder"></p>
+    </div>
+  </body>
+</html>
