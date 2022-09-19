@@ -35,17 +35,13 @@ submit.addEventListener('click', () => {
   console.log(phoneInput.value);
   phoneInput.value = ""
 
-  const color = document.querySelector('#color-input');
-  const body = document.querySelector('body');
-  body.style.backgroundColor = color.value;
-
   const sporty = document.querySelector('#points')
   if(sporty.value > 5)
   {
-    responseMessage.innerHTML += "<br> Your pretty into sports!"
+    responseMessage.innerHTML += "<br> Your pretty into sports, that's awesome!"
   }
   else{
-    responseMessage.innerHTML += "<br> Some people just dont like sports and that's ok!"
+    responseMessage.innerHTML += "<br> Some people just don't like sports and that's ok!"
   }
 
   const paragraph = document.querySelector('#sportsReview')
@@ -61,19 +57,19 @@ submit.addEventListener('click', () => {
     console.log(checkboxStatus.checked);
     if(checkboxStatus.checked && num == 0) //football was checked
     {
-
+        document.getElementById("football").src = "football.jpeg"
     }
     if (checkboxStatus.checked && num == 1) //Soccer was checked
     {
-
+        document.getElementById("soccer").src = "soccer.webp"
     }
     if (checkboxStatus.checked && num == 2) //Baseball was checked
     {
-        
+        document.getElementById("baseball").src = "baseball.jpeg"
     }
     if (checkboxStatus.checked && num == 3) //Rugby was checked
     {
-        
+        document.getElementById("rugby").src = "rugby.avif"
     }
     checkboxStatus.checked = false;
     num++;

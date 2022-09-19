@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HTML Forms</title>
+    <title>HTML Forms Assignment 2</title>
     <link rel="stylesheet" href="main.css" />
     <script defer src="main.js"></script>
   </head>
   <body>
+    <h1>
+      Sports Survey
+    </h1>
     <form id="form">
       <div>
-        <label for="name-input">Enter your name:</label>
+        <label for="name-input">Name:</label>
         <input type="text" id="name-input" >
       </div>
       <div>
@@ -21,16 +24,12 @@
         <input type="tel" id="phone-input" name="tel" />
       </div>
       <div>
-        <label for="color-input">Choose a color for the page to be</label>
-        <input type="color" id="color-input" >
-      </div>
-      <div>
-        <label for="points">How into sports are you (between 0 and 10):</label>
+        <label for="points">How interested in sports are you? (between 0 and 10):</label>
         <input type="range" id="points" name="points" min="0" max="10">
       </div>
 
       <fieldset id="checkboxes">
-        <legend>Checkbox Group</legend>
+        <legend>Please select your favorite sports</legend>
 
         <input type="checkbox" id="check-1" name="checkbox-group">
         <label for="check-1" >Football</label>
@@ -47,7 +46,7 @@
       </fieldset>
       <fieldset>
             <label for="sportsReview">Please explain why those are your favorite sports. What do you like about them?</label>
-             <br> <textarea id="sportsReview" name="paragraph" rows="4" cols="50">
+             <br><textarea id="sportsReview" name="paragraph" rows="4" cols="50">
             </textarea>
         </fieldset> 
       <button type="button" id="my-button">Submit</button>
@@ -56,6 +55,12 @@
       <h1 id="name">
       </h1>
       <p id="responder"></p>
+      <div id="images">
+        <img id="football" src="">
+        <img id="soccer" src="">
+        <img id="baseball" src="">
+        <img id="rugby" src="">
+      </div>
     </div>
   </body>
 </html>
