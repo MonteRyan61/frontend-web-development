@@ -1,0 +1,17 @@
+#content{
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+}
+h4{
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+}
+img{
+    border-radius: 10%;
+}
+
+body{
+    background-color: rgb(218, 192, 159);
+}
