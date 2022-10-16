@@ -18,7 +18,7 @@ Similar to my class project I plan to develop on a mobile size screen as if it f
 ## Goals
 My goals for prototyping and proof of concept are to fully flesh out every page within a wireframe and keep this simple but usable. I plan to create a little of every page when in the prototyping state to keep from getting to far down the line on one page and losing a cohesive design between each page. I feel when developing a few pages bit by bit they flow better then completing one and moving to the next. 
 
-My MVP is to have many photos and a few charts that show members and those interested in the organization what we are and what we do.
+My MVP is to have many photos and a few slides that show members and those interested in the organization what we are and what we do.
 
 Stretch Goals are to fully have a website that is able to have the ability to secure more interaction between the user than just reading the page and seeing amazing charts, information and photos. Another stretch goal is to use a library to create a calendar on the events page such as FullCalendar https://fullcalendar.io. Another stretch goal will be to add more than just the four pages add one for rush information and pledge information.
 
@@ -44,3 +44,5 @@ This was not easy and took a lot of experimenting  figuring out the google calen
  I will come back to work on the portrait slide show soon.
 
  But for now I want to get the members page rolling. This page will be very straight forward and focus on the members and their majors. To make this easier to update I will use arrays in javascript to populate the photos of members along with their description. This should make it easier to update so that no html is needed to be added.
+ 
+ I was able to get further than my MVP at this point I have information describing what we are and what we do. I was able to implement a calendar that pulls from google calendar api which was a stretch goal. I also have implemented slide shows with controls to show some images of what we do. I have a page that list all members and their major. This is great and ready for critique I am excited to make improvements on this after I present.
