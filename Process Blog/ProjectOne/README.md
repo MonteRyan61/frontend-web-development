@@ -52,6 +52,12 @@ This was not easy and took a lot of experimenting  figuring out the google calen
 I was not satisfied with the slide shows yet at this point. While showing off the slides to some members they often requested I go back to a picture. Since this was just a loop that displayed a new image every five seconds or so we would have to sit there and wait. That is when I decided to make and additional function in which if a button to the right of the slideshow was pressed it would go to the next image and if a button to the left was pressed it would go back an image. This worked great and I was still able to keep the loop timing through. A stretch goal I would like to add is a better way to reset the timer when a button is pressed so it displays for the full 5 seconds and not just the remainder of the time.
 ![Arrows2](arrows2.png "Arrows2")
 
+Through feedback a classmate suggested making the top nav buttons square rather than rounded to have a better professional design feel so I made that change. It does look more professional and works well with the shadow.
+![about](about.png "about")
+![Events](events.png "events")
+![members](members.png "members")
+One other cool thing I implemented is That when you are on a certain page I wanted that to be signified so it changes to a red color along with the shadow changes to show that it is currently on that page. I really like the way this came out and makes the page a little more lively.
+
 Looking back at my milestone 1 I remembered I wanted to use the library transition.js. I experimented with this library for some time and struggled to get it loaded in and want to come back to it after we learn more about libraries. But for now I was able to implement the effects I wanted to within css so there was no loss there. I also found no real need for charts as that information would change a lot and be hard to keep update. I find that the use of the google calendar library where it updates based off information we always keep updated online was a much better use of my time and better for the life of the code. I chose photos that will still get the point across so even if not updated frequently they will still be ok and the calendar should remain updated through the API.
 
 
