@@ -1,6 +1,8 @@
 # Project 1, Process
 ## Milestone 1 Proposal
 
+Link to MVP: https://theta-tau-eta-gamma.vercel.app
+
 I am the current president of Theta Tau a co-ed professional engineering fraternity on campus. During out chapters we have been talking about updating our pre-existing website that was created many years back using square space. But with this project I would like to completely create a new website for our chapter in order to help spread the word and share information about what we do. The topic of my website will be surroundning the Theta Tau Fraternity, our previous events, upcoming events and contact information. My inspiration for this is to utilize and engineering skill as we are an engineering fraternity I have never liked the fact that our website was created from square space. This is something I am very passionate about and want to make very intriguing to help members have a site to look back on some cool events and get excited about future events. The intended audience for this project is the members and anyone within the engineering school.
 
 ## Wireframe
@@ -59,6 +61,8 @@ Through feedback a classmate suggested making the top nav buttons square rather 
 One other cool thing I implemented is That when you are on a certain page I wanted that to be signified so it changes to a red color along with the shadow changes to show that it is currently on that page. I really like the way this came out and makes the page a little more lively.
 
 Looking back at my milestone 1 I remembered I wanted to use the library transition.js. I experimented with this library for some time and struggled to get it loaded in and want to come back to it after we learn more about libraries. But for now I was able to implement the effects I wanted to within css so there was no loss there. I also found no real need for charts as that information would change a lot and be hard to keep update. I find that the use of the google calendar library where it updates based off information we always keep updated online was a much better use of my time and better for the life of the code. I chose photos that will still get the point across so even if not updated frequently they will still be ok and the calendar should remain updated through the API.
+
+Link to MVP: https://theta-tau-eta-gamma.vercel.app
 
 
  ## After Critique
