@@ -21,7 +21,7 @@ scene.add(directional);
 
 
 const geometry = new THREE.BoxGeometry(1, 4, 1);
-const material = new THREE.MeshPhysicalMaterial({ color: 'lightgreen', roughness: 0.5, metalness: 0.7});
+const material = new THREE.MeshPhysicalMaterial({ color: 'purple', roughness: 0.5, metalness: 0.7});
 const cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
 
