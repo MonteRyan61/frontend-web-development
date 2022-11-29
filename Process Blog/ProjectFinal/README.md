@@ -42,3 +42,14 @@ Plan to work and focus on the hover affect to begin. Then I really wanna get thi
   * Utilize a database to store the user's review of a recipe they have tried.
   * Creating a search bar
   * New day, new recipe with the date displayed at the top right like a recipe of the day
+
+
+
+## Milestone 2 WIP
+Overall after beginning this project it has become apparent how much more planning and preparation is needed when creating a React based SPA. I have been able to come up with and implement certain components up to this point. I have mainly focused on what will be static such as the title and the search bar. Getting the search bar to work in react took some adjusting from when it was in normal js. I will be adjusting the first idea to get this search bar implemented in a way that allows us to highlight or bring attenttion to one of the recipes. Even though that was a stretch goal to begin with I find that the site needs this as a MVP so that will be implemented.
+
+I have begun to add just a list of recipes but also began to look into an api to populate this list. Most seem to have to be paid for so that may be out of the plan and just create a list with our top 10 favorite recipes.
+
+![Draft](Draft.png "Draft")
+
+Shown above is what I have experimented with thus far and will work on the styling, animation, state for the full recipe and image inclusion. But for now I am getting content loaded in and decided what needs to be state and what needs to be a seperate component. We are finding that it is hard to develop with multiple people as there are so many different ways of implementing and utilizing components. We will work to solve this by getting a good plan set in class!
