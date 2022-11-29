@@ -52,4 +52,7 @@ I have begun to add just a list of recipes but also began to look into an api to
 
 ![Draft](Draft.png "Draft")
 
-Shown above is what I have experimented with thus far and will work on the styling, animation, state for the full recipe and image inclusion. But for now I am getting content loaded in and decided what needs to be state and what needs to be a seperate component. We are finding that it is hard to develop with multiple people as there are so many different ways of implementing and utilizing components. We will work to solve this by getting a good plan set in class!
+Shown above is what I have experimented with thus far and will work on the styling, animation, state for the full recipe and image inclusion. But for now I am getting content loaded in and decided what needs to be state and what needs to be a seperate component. We are finding that it is hard to develop with multiple people as there are so many different ways of implementing and utilizing components. We will work to solve this by getting a good plan set in class! After further collaboration we have our components planned out and found an api that may work but for now we will continue to use static recipes to get the flow down and see if we have a way to implement the api late. I found a cool way of storing the data that could be adapted into using an api! Now with all of that on the way I plan to work on getting a hover effect to work in react using event listeners.
+![Data](dataStorage.png "Data")
+![Draft2](Draft2.png "Draft2")
+
