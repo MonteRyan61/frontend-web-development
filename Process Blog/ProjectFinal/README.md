@@ -1,4 +1,5 @@
 # Final Project, Process
+## Link to
 ## Milestone 1 Proposal
 
 ### Overall description of the project:
@@ -127,7 +128,16 @@ This project has come a long way at this point and has been through many iterati
 Now just for fun I am making some additions. For example when you search for something then click a recipe then go back it doesn't show what is currently being shown. I added a variable called currently showing so that when you press back you know what you last search for.
 
 ![noResult](noResult.png "noResult")
-I also wanted to protect the edge case of a user searching something that is not in the api's categories. I did this by before calling cooking titles we ensure that the recipe names and images are defined.
-
+I also wanted to protect the edge case of a user searching something that is not in the api's categories. I did this by before calling cooking titles we ensure that the recipe names and images are defined. 
+![emptyInp](emptyInp.png "emptyInp")
+Then I added a feature to prompt the user to "please type in a food category" if they search and empty text box. I could make this the default screen but I like to have the steaks shown to start.
 ![checkList](checkList.png "checkList")
 I implemented a check list feature for the ingredients so that a user can kind of guage how many they have before deciding if they want to click the source and cook that recipe. 
+
+
+I then used github pages to deploy the website this was easy to do.
+![bugFix](bugFix.png "bugFix")
+![CHange](CHange.png "CHange")
+For some reason when deployed on github pages it won't load in the static images from the api request as they time out. So now the main home page will display no recipes until the user enters a category. I think over all this is better anyway as it doesn't force steak on anyone or get annoying always seeing that.
+![Done](Done.png "Done")
+Since that left alot of white space I wanted the search to be in the center for if nothing was searched. I was able to achieve this by having a spacer component appear only when nothing was search and tah Dah! All finished.
